@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 
 const sequelize = new Sequelize("auth_db", "root", "", {
-    host: "localhost",
+    host: "localhostt",
     dialect: "mysql",
     logging: false
 })
